@@ -18,15 +18,15 @@ public class PlayerManager : MonoBehaviour {
 
 	void Movement () {
 		//Left Joystick
-		mX = Input.GetAxis ("L_Horizontal") * speed * Time.deltaTime;
+		mX = Input.GetAxis ("L_Horizontal") * Time.deltaTime * speed;
 		transform.Translate (mX, 0, 0);
-		mY = Input.GetAxis ("L_Vertical") * speed * Time.deltaTime;
+		mY = Input.GetAxis ("L_Vertical") * Time.deltaTime * speed;
 		transform.Translate (0, mY, 0);
 
 		//Right Joystick
-		moveX = Input.GetAxis ("R_Horizontal") * speed * Time.deltaTime;
+		moveX = Input.GetAxis ("R_Horizontal") * Time.deltaTime * speed;
 		transform.Translate (moveX, 0, 0);
-		moveY = Input.GetAxis ("R_Vertical") * speed * Time.deltaTime;
+		moveY = Input.GetAxis ("R_Vertical") * Time.deltaTime * speed;
 		transform.Translate (0, moveY, 0);
 	}
 }
