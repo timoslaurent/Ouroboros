@@ -14,19 +14,26 @@ public class PlayerManager : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		Movement ();
+		InputUser ();
 	}
 
 	void Movement () {
 		//Left Joystick
-		mX = Input.GetAxis ("L_Horizontal") * Time.deltaTime * speed;
+		mX = Input.GetAxis ("L_Horizontal") * Time.deltaTime;
 		transform.Translate (mX, 0, 0);
-		mY = Input.GetAxis ("L_Vertical") * Time.deltaTime * speed;
+		mY = Input.GetAxis ("L_Vertical") * Time.deltaTime;
 		transform.Translate (0, mY, 0);
 
 		//Right Joystick
-		moveX = Input.GetAxis ("R_Horizontal") * Time.deltaTime * speed;
+		moveX = Input.GetAxis ("R_Horizontal") * Time.deltaTime;
 		transform.Translate (moveX, 0, 0);
-		moveY = Input.GetAxis ("R_Vertical") * Time.deltaTime * speed;
+		moveY = Input.GetAxis ("R_Vertical") * Time.deltaTime;
 		transform.Translate (0, moveY, 0);
+	}
+
+	void InputUser (){
+		if (Input.GetButtonDown ("360_AButton")){
+			Debug.Log ("Bouton A");
+		}
 	}
 }
