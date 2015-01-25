@@ -7,8 +7,8 @@ public class PlayerManager : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		speed = 20;
-
+		speed = 5;
+		//mX = mY = moveX = moveY = 0;
 	}
 	
 	// Update is called once per frame
@@ -19,21 +19,29 @@ public class PlayerManager : MonoBehaviour {
 
 	void Movement () {
 		//Left Joystick
-		mX = Input.GetAxis ("L_Horizontal") * Time.deltaTime;
-		transform.Translate (mX, 0, 0);
-		mY = Input.GetAxis ("L_Vertical") * Time.deltaTime;
-		transform.Translate (0, mY, 0);
-
+		if (CompareTag ("Player")) {
+			//mX = Input.GetAxis ("L_Horizontal") * Time.deltaTime* speed;
+			transform.Translate (Input.GetAxis ("L_Horizontal") * Time.deltaTime* speed, 0, 0);
+			//mY = Input.GetAxis ("L_Vertical") * Time.deltaTime * speed;
+			transform.Translate (0, 0, Input.GetAxis ("L_Vertical") * Time.deltaTime * speed);
+		}
 		//Right Joystick
-		moveX = Input.GetAxis ("R_Horizontal") * Time.deltaTime;
-		transform.Translate (moveX, 0, 0);
-		moveY = Input.GetAxis ("R_Vertical") * Time.deltaTime;
-		transform.Translate (0, moveY, 0);
+		if (CompareTag ("Player2")) {
+			//moveX = Input.GetAxis ("R_Horizontal") * Time.deltaTime * speed;
+			transform.Translate (Input.GetAxis ("R_Horizontal") * Time.deltaTime * speed, 0, 0);
+			//moveY = Input.GetAxis ("R_Vertical") * Time.deltaTime * speed;
+			transform.Translate (0, 0, Input.GetAxis ("R_Vertical") * Time.deltaTime * speed);
+		}
 	}
 
 	void InputUser (){
-		if (Input.GetButtonDown ("360_AButton")){
-			Debug.Log ("Bouton A");
+		//Serpent à gauche
+		if (Input.GetButtonDown ("360_LB")){
+			Debug.Log ("LB");
+		}
+		//Serpent à droite
+		if (Input.GetButtonDown ("360_RB")) {
+			Debug.Log ("RB");
 		}
 	}
 }
