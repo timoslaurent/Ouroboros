@@ -7,7 +7,7 @@ public class PlayerManager : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		speed = 5;
+		speed = 2;
 		//mX = mY = moveX = moveY = 0;
 	}
 	

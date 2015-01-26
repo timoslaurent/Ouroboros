@@ -14,7 +14,7 @@ public class Camera : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		camera.orthographicSize = 6.5f;
+		camera.orthographicSize = 6;
 		//Camera follows snakes
 		if (target) {
 			Vector3 point = camera.WorldToViewportPoint (target.position);
