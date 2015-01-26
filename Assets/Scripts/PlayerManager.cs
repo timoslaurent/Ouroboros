@@ -35,13 +35,20 @@ public class PlayerManager : MonoBehaviour {
 	}
 
 	void InputUser (){
-		//Serpent à gauche
-		if (Input.GetButtonDown ("360_LB")){
-			Debug.Log ("LB");
+		//Serpent à gauche 
+		if (Input.GetButtonDown ("360_LB") && CompareTag ("Player")){
+			Debug.Log ("LB = Avale orbe");
+		}
+		if (Input.GetAxis ("360_Triggers")< 0 && CompareTag ("Player")){
+			Debug.Log (Input.GetAxis ("360_Triggers"));
+			Debug.Log ("LT = Pouvoir activé");
 		}
 		//Serpent à droite
-		if (Input.GetButtonDown ("360_RB")) {
-			Debug.Log ("RB");
+		if (Input.GetButtonDown ("360_RB")&& CompareTag ("Player")){
+			Debug.Log ("RB = Avale orbe");
+		}
+		if (Input.GetAxis ("360_Triggers")> 0.001 && CompareTag ("Player2")) {
+			Debug.Log ("RT = Pouvoir activé");
 		}
 	}
 }
