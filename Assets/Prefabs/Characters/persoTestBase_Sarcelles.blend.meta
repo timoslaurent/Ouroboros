@@ -1,0 +1,359 @@
+fileFormatVersion: 2
+guid: 4d56fb2bdabf7924480279400f040f99
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Bone_00
+    100004: Bone_02
+    100006: Bone_03
+    100008: Bone_08
+    100010: Bone_09
+    100012: Bone_10
+    100014: Bone_11
+    100016: Bone_12
+    100018: Bone_14
+    100020: Bone_15
+    100022: Bone_16
+    100024: Bone_17
+    100026: Bone_22
+    100028: Bone_23
+    100030: corpsB
+    100032: corpsH
+    100034: cuisseD
+    100036: cuisseG
+    100038: hancheD
+    100040: hancheG
+    100042: jambeD
+    100044: jambeG
+    100046: //RootNode
+    100048: piedD
+    100050: piedG
+    100052: Plane_000
+    400000: Armature
+    400002: Bone_00
+    400004: Bone_02
+    400006: Bone_03
+    400008: Bone_08
+    400010: Bone_09
+    400012: Bone_10
+    400014: Bone_11
+    400016: Bone_12
+    400018: Bone_14
+    400020: Bone_15
+    400022: Bone_16
+    400024: Bone_17
+    400026: Bone_22
+    400028: Bone_23
+    400030: corpsB
+    400032: corpsH
+    400034: cuisseD
+    400036: cuisseG
+    400038: hancheD
+    400040: hancheG
+    400042: jambeD
+    400044: jambeG
+    400046: //RootNode
+    400048: piedD
+    400050: piedG
+    400052: Plane_000
+    4300000: Plane_000
+    7400000: Default Take
+    7400002: Attente
+    7400004: Marche
+    9500000: //RootNode
+    13700000: Plane_000
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Default Take
+      takeName: Default Take
+      firstFrame: 0
+      lastFrame: 249
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/corpsB
+        weight: 1
+      - path: Armature/corpsB/corpsH
+        weight: 1
+      - path: Armature/corpsB/corpsH/Bone_09
+        weight: 1
+      - path: Armature/corpsB/corpsH/Bone_09/Bone_10
+        weight: 1
+      - path: Armature/corpsB/corpsH/Bone_09/Bone_10/Bone_11
+        weight: 1
+      - path: Armature/corpsB/corpsH/Bone_09/Bone_10/Bone_11/Bone_08
+        weight: 1
+      - path: Armature/corpsB/corpsH/Bone_14
+        weight: 1
+      - path: Armature/corpsB/corpsH/Bone_14/Bone_00
+        weight: 1
+      - path: Armature/corpsB/corpsH/Bone_14/Bone_00/Bone_02
+        weight: 1
+      - path: Armature/corpsB/corpsH/Bone_14/Bone_00/Bone_02/Bone_03
+        weight: 1
+      - path: Armature/corpsB/corpsH/Bone_14/Bone_00/Bone_02/Bone_03/Bone_12
+        weight: 1
+      - path: Armature/corpsB/corpsH/Bone_23
+        weight: 1
+      - path: Armature/corpsB/corpsH/Bone_23/Bone_15
+        weight: 1
+      - path: Armature/corpsB/corpsH/Bone_23/Bone_15/Bone_16
+        weight: 1
+      - path: Armature/corpsB/corpsH/Bone_23/Bone_15/Bone_16/Bone_17
+        weight: 1
+      - path: Armature/corpsB/corpsH/Bone_23/Bone_15/Bone_16/Bone_17/Bone_22
+        weight: 1
+      - path: Armature/corpsB/hancheD
+        weight: 1
+      - path: Armature/corpsB/hancheD/cuisseD
+        weight: 1
+      - path: Armature/corpsB/hancheD/cuisseD/jambeD
+        weight: 1
+      - path: Armature/corpsB/hancheD/cuisseD/jambeD/piedD
+        weight: 1
+      - path: Armature/corpsB/hancheG
+        weight: 1
+      - path: Armature/corpsB/hancheG/cuisseG
+        weight: 1
+      - path: Armature/corpsB/hancheG/cuisseG/jambeG
+        weight: 1
+      - path: Armature/corpsB/hancheG/cuisseG/jambeG/piedG
+        weight: 1
+      - path: Plane_000
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Attente
+      takeName: Attente
+      firstFrame: -1
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/corpsB
+        weight: 1
+      - path: Armature/corpsB/corpsH
+        weight: 1
+      - path: Armature/corpsB/corpsH/Bone_09
+        weight: 1
+      - path: Armature/corpsB/corpsH/Bone_09/Bone_10
+        weight: 1
+      - path: Armature/corpsB/corpsH/Bone_09/Bone_10/Bone_11
+        weight: 1
+      - path: Armature/corpsB/corpsH/Bone_09/Bone_10/Bone_11/Bone_08
+        weight: 1
+      - path: Armature/corpsB/corpsH/Bone_14
+        weight: 1
+      - path: Armature/corpsB/corpsH/Bone_14/Bone_00
+        weight: 1
+      - path: Armature/corpsB/corpsH/Bone_14/Bone_00/Bone_02
+        weight: 1
+      - path: Armature/corpsB/corpsH/Bone_14/Bone_00/Bone_02/Bone_03
+        weight: 1
+      - path: Armature/corpsB/corpsH/Bone_14/Bone_00/Bone_02/Bone_03/Bone_12
+        weight: 1
+      - path: Armature/corpsB/corpsH/Bone_23
+        weight: 1
+      - path: Armature/corpsB/corpsH/Bone_23/Bone_15
+        weight: 1
+      - path: Armature/corpsB/corpsH/Bone_23/Bone_15/Bone_16
+        weight: 1
+      - path: Armature/corpsB/corpsH/Bone_23/Bone_15/Bone_16/Bone_17
+        weight: 1
+      - path: Armature/corpsB/corpsH/Bone_23/Bone_15/Bone_16/Bone_17/Bone_22
+        weight: 1
+      - path: Armature/corpsB/hancheD
+        weight: 1
+      - path: Armature/corpsB/hancheD/cuisseD
+        weight: 1
+      - path: Armature/corpsB/hancheD/cuisseD/jambeD
+        weight: 1
+      - path: Armature/corpsB/hancheD/cuisseD/jambeD/piedD
+        weight: 1
+      - path: Armature/corpsB/hancheG
+        weight: 1
+      - path: Armature/corpsB/hancheG/cuisseG
+        weight: 1
+      - path: Armature/corpsB/hancheG/cuisseG/jambeG
+        weight: 1
+      - path: Armature/corpsB/hancheG/cuisseG/jambeG/piedG
+        weight: 1
+      - path: Plane_000
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Marche
+      takeName: Marche
+      firstFrame: 4
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/corpsB
+        weight: 1
+      - path: Armature/corpsB/corpsH
+        weight: 1
+      - path: Armature/corpsB/corpsH/Bone_09
+        weight: 1
+      - path: Armature/corpsB/corpsH/Bone_09/Bone_10
+        weight: 1
+      - path: Armature/corpsB/corpsH/Bone_09/Bone_10/Bone_11
+        weight: 1
+      - path: Armature/corpsB/corpsH/Bone_09/Bone_10/Bone_11/Bone_08
+        weight: 1
+      - path: Armature/corpsB/corpsH/Bone_14
+        weight: 1
+      - path: Armature/corpsB/corpsH/Bone_14/Bone_00
+        weight: 1
+      - path: Armature/corpsB/corpsH/Bone_14/Bone_00/Bone_02
+        weight: 1
+      - path: Armature/corpsB/corpsH/Bone_14/Bone_00/Bone_02/Bone_03
+        weight: 1
+      - path: Armature/corpsB/corpsH/Bone_14/Bone_00/Bone_02/Bone_03/Bone_12
+        weight: 1
+      - path: Armature/corpsB/corpsH/Bone_23
+        weight: 1
+      - path: Armature/corpsB/corpsH/Bone_23/Bone_15
+        weight: 1
+      - path: Armature/corpsB/corpsH/Bone_23/Bone_15/Bone_16
+        weight: 1
+      - path: Armature/corpsB/corpsH/Bone_23/Bone_15/Bone_16/Bone_17
+        weight: 1
+      - path: Armature/corpsB/corpsH/Bone_23/Bone_15/Bone_16/Bone_17/Bone_22
+        weight: 1
+      - path: Armature/corpsB/hancheD
+        weight: 1
+      - path: Armature/corpsB/hancheD/cuisseD
+        weight: 1
+      - path: Armature/corpsB/hancheD/cuisseD/jambeD
+        weight: 1
+      - path: Armature/corpsB/hancheD/cuisseD/jambeD/piedD
+        weight: 1
+      - path: Armature/corpsB/hancheG
+        weight: 1
+      - path: Armature/corpsB/hancheG/cuisseG
+        weight: 1
+      - path: Armature/corpsB/hancheG/cuisseG/jambeG
+        weight: 1
+      - path: Armature/corpsB/hancheG/cuisseG/jambeG/piedG
+        weight: 1
+      - path: Plane_000
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .75
+    meshCompression: 0
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
