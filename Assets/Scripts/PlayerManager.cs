@@ -42,10 +42,7 @@ public class PlayerManager : MonoBehaviour {
 	}
 
 	void Movement() {
-
-
-
-
+	
 		//Left Joystick
 		if (CompareTag ("p1")) {
 			if (!isTeleporting)
@@ -70,11 +67,11 @@ public class PlayerManager : MonoBehaviour {
 					}
 				}
 			}
+			//Debug.Log(thisAnimator);
 
 			if (Input.GetAxis ("L_Horizontal") != 0 || Input.GetAxis ("L_Vertical") != 0)
 			{
 				thisAnimator.SetBool("stop", false);
-				Debug.Log ("Horizontal " + Input.GetAxis ("L_Horizontal") + " " + "Vertical " + Input.GetAxis ("L_Vertical"));
 			}
 			else
 			{
@@ -82,14 +79,6 @@ public class PlayerManager : MonoBehaviour {
 			}
 		}
 
-		if (Input.GetAxis ("R_Horizontal") != 0 || Input.GetAxis ("R_Vertical") != 0)
-		{
-			thisAnimator.SetBool("stop", false);
-		}
-		else
-		{
-			thisAnimator.SetBool("stop", true);
-		}
 		//Right Joystick
 		if (CompareTag ("p2")) {
 			if (!isTeleporting)
@@ -112,6 +101,15 @@ public class PlayerManager : MonoBehaviour {
 					}
 				}
 			}
+			if (Input.GetAxis ("R_Horizontal") != 0 || Input.GetAxis ("R_Vertical") != 0)
+			{
+				thisAnimator.SetBool("stop", false);
+			}
+			else
+			{
+				thisAnimator.SetBool("stop", true);
+			}
+			//Debug.Log (thisAnimator);
 		}
 	}
 
